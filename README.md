@@ -28,6 +28,7 @@ IC-Robo/
 │   └── Interface_PlanejadorRobô2.py                              # Simulador gráfico 2D (Tkinter) do planejador no plano cartesiano
 └── docs/
     ├── Resumo_Teorico_e_Glossario.md                             # Síntese teórica, glossário técnico e arquitetura POO do robô
+    ├── Tutorial_Git_e_GitHub.md                                  # Guia passo a passo de Git e GitHub do zero para a equipe
     ├── fundamentacao-teorica/
     │   ├── Dissertacao_Mestrado_Claudio_Torres_2004_Emmy_II.pdf  # Dissertação de Mestrado (Robô Emmy II e controlador Paracontrol)
     │   └── Tese_Doutorado_Claudio_Torres_2010_Emmy_III.pdf       # Tese de Doutorado (Sensoriamento, Planejamento e RNAP)
@@ -60,6 +61,7 @@ IC-Robo/
 | Arquivo | Conteúdo Principal |
 | :--- | :--- |
 | [`docs/Resumo_Teorico_e_Glossario.md`](docs/Resumo_Teorico_e_Glossario.md) | **Guia de Referência Rápida da IC:** Comparativo Mestrado vs. Doutorado, glossário completo ($\mu, \lambda, G_c, G_{ct}$, Para-analisador, Paracontrol, estados lógicos, células neurais) e diagrama de classes para implementação em **Programação Orientada a Objetos (POO)**. |
+| [`docs/Tutorial_Git_e_GitHub.md`](docs/Tutorial_Git_e_GitHub.md) | **Tutorial Básico de Git e GitHub (Do Zero):** Guia prático pensado para membros da equipe que nunca usaram Git/GitHub, explicando conceitos básicos, uso visual pelo GitHub Desktop, os 5 comandos essenciais de terminal e o quadro de tarefas do projeto. |
 | [`docs/notas-estudo/Logica_Paraconsistente.pdf`](docs/notas-estudo/Logica_Paraconsistente.pdf) | Conceito didático da Lógica Paraconsistente aplicada à pergunta *"Existe um obstáculo nesta célula?"*, explicando como o planejador opera com Evidência Favorável ($\mu$) e Evidência Contrária ($\lambda$). |
 | [`docs/notas-estudo/Celulas_Neurais_Artificiais_Paraconsistentes.pdf`](docs/notas-estudo/Celulas_Neurais_Artificiais_Paraconsistentes.pdf) | Explicação das unidades de processamento neural paraconsistente: **`CNAPpa`** (filtro com Fator de Tolerância à Certeza), **`CNAPmax`** (operador lógico OU / maximização entre evidências) e **`CNAPa`** (análise de certeza, contradição e evidência resultante), além da relação direta entre células da tese e objetos/métodos/atributos em **POO**. |
 | [`docs/notas-estudo/Movimento_Robo.pdf`](docs/notas-estudo/Movimento_Robo.pdf) | Definição das variáveis de posição de origem $(X_o, Y_o)$ e destino $(X_d, Y_d)$, sentidos de movimentação nos eixos $(\pm X, \pm Y)$ e tabela das 8 combinações de movimento no plano cartesiano. |
